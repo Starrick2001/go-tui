@@ -21,6 +21,7 @@ type AppModel struct {
 }
 
 func (a *AppModel) Init() tea.Cmd {
+	//
 	return textinput.Blink
 }
 
